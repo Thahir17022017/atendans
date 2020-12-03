@@ -1,0 +1,306 @@
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat/Montserrat-Medium.ttf");
+  }
+
+  .custom-font {
+    font-family: "Montserrat";
+    
+    
+  }
+
+  
+  @font-face {
+    font-family: "Josefin_Sans";
+    src: url("../font/Josefin_Sans/JosefinSans-Bold.ttf");
+  }
+
+  .custom-font3{
+    font-family: "Josefin_Sans";
+    
+}  
+
+  .custom-font-color{
+    color:  #1e1e1e; 
+  }
+
+  .navbar-toggler-icon{
+    color: #1e1e1e; 
+  }
+ 
+  @font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../font/Montserrat/Montserrat-SemiBold.ttf");
+  }
+
+  .custom-font2
+  {
+    font-family: "Montserrat-SemiBold";
+    
+  }
+
+  html{
+    scroll-behavior: smooth;
+}
+  
+.full-screen {
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:680px;
+    width:100%;
+}
+
+.navbar {
+    /* background-color: #263238; */
+    background-color: white;
+}
+
+.top-nav-collapse {
+    background-color: white;
+}
+
+
+.shadow-card{
+    box-shadow: 5px 5px 14px -2px rgba(0,0,0,0.99);
+  }
+
+.responsive {
+    width: 100%;
+    
+    box-shadow: 5px 5px 14px -2px rgba(0,0,0,0.99);
+}
+
+.lock-clr{
+    color:#ffc400;
+}
+
+.tick-mark{
+    color:#33eb91;
+}
+
+.tick-mark-white{
+    color:white;
+}
+
+.group-ppl{
+    color:#ff3d00;
+}
+
+.smile{
+    color:#f50057;
+}
+
+
+.shadow-card-white{
+    box-shadow: 5px 5px 14px -2px  rgba(0,0,0,0.99);
+  }
+
+.price-card{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+70,7db9e8+100 */
+background: #77A1D3; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #77A1D3 0%, #79CBCA 50%, #79CBCA 70%, #E684AE 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #77A1D3 0%,#79CBCA 50%,#79CBCA 70%,#E684AE 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #77A1D3 0%,#79CBCA 50%,#79CBCA 70%,#E684AE 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77A1D3', endColorstr='#E684AE',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.line-fill{
+   
+    border-width: 5px;
+    border-color: white;
+}
+
+.line-fill-black
+{
+    border-width: 2px;
+    border-color: black;
+}
+
+.line-fill-grey{
+   
+    border-width: 5px;
+    border-color: white;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.price-normal{
+    font-size: 40px;
+}
+
+.feature-desc{
+    font-size: 15px;
+}
+
+.btn-grad{
+    background-image: linear-gradient(to right, #cc2b5e , #753a88);
+    border-radius: 40px;
+}
+
+.feature-gradient{
+    background-image: linear-gradient(to right, #ff6e7f ,#bfe9ff);
+    color:white;
+}
+
+.load-img{
+    background: url("/img/cutomers/1.jpg");
+}
+
+.card-dark-bg{
+    background-color: #1e1e1e;
+}
+.arrow{
+    position: relative;
+    top:-48px;
+    border-radius: 50%;
+    background-color: #1e1e1e;
+    cursor: pointer;
+
+}
+
+#countryBtn{
+    background-color: transparent;
+}
+
+@media (max-width: 400px) { 
+  .img-fluid1{
+    min-width: 100%; 
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 23%;
+  }
+
+  .col-spacing{
+      margin-top:10px;
+  }
+
+  .col-feature-spacing{
+    margin-top:20px;
+}
+
+.mar-top{
+    margin-top:20px;
+}
+.contactCol{
+    top:30px;
+}
+}
+
+.star{
+    background-color: #080F17;
+    border-radius: 6px 6px 0px 0px;
+    padding: 1%;
+}
+.popup {
+    position: relative;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 20px;
+    transition: all .2s ease-in-out;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    /* visibility: hidden; */
+    /* width: 100%; */
+    background-color: white;
+   
+    /* text-align: center; */
+    border-radius: 0px 0px 2px 6px;
+    
+    padding: 8px;
+    position: relative;
+    /* z-index: 1; */
+    /* bottom: 125%; */
+    /* left: 50%; */
+    
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    transform: skewX(-10deg);
+   
+    
+}
+
+.popup-shadow-card{
+    box-shadow: 5px 5px 14px -2px rgba(0,0,0,0.99);
+  }
+
+.popup-font{
+      font-size: 11px;
+     
+  }
+
+/* .popup:hover{
+    transform: scale(1.2);
+    z-index:1;
+   
+    
+} */
+
+/* masonry layout */
+.masonry-container{
+    width: 90%;
+    margin:60px auto;
+    
+    -moz-column-width: 220px;
+    -webkit-column-width:220px;
+    column-width: 220px;
+
+    -moz-column-count:3;
+    -webkit-column-count:3;
+    column-count:3;
+
+    -moz-column-gap: 20px;
+    -webkit-column-gap:20px;
+    column-gap: 20px;
+}
+
+.masonry-container:hover div[id]:not(:hover)
+{
+    opacity:.6;
+}
+
+div[id="popup*"]:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.20);
+    
+}
+
+.review-summary{
+    background-color: white;
+}
+
+.ratings-font{
+        font-size: 12px;
+}
+
+.ldBar-label{
+    color:grey;
+    font-family: Josefin_Sans;
+    font-size: 2.1em;
+    font-weight: 900
+}
+
+
+
